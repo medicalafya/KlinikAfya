@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Klinik Afya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body class="font-sans">
+
+<!-- Navbar -->
+<nav class="fixed top-0 left-0 w-full bg-white shadow z-50">
+  <ul class="flex justify-center space-x-6 py-4 text-lg font-medium">
+    <li><a href="#home" class="hover:text-blue-600">Utama</a></li>
+    <li><a href="#services" class="hover:text-blue-600">Perkhidmatan</a></li>
+    <li><a href="#doctors" class="hover:text-blue-600">Doktor Kami</a></li>
+    <li><a href="#panel" class="hover:text-blue-600">Panel</a></li>
+    <li><a href="#gallery" class="hover:text-blue-600">Galeri</a></li>
+    <li><a href="#reviews" class="hover:text-blue-600">Ulasan</a></li>
+    <li><a href="#locations" class="hover:text-blue-600">Lokasi</a></li>
+    <li><a href="#contact" class="hover:text-blue-600">Hubungi Kami</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="h-screen flex flex-col justify-center items-center bg-gray-100 pt-20">
+  <h1 class="text-4xl md:text-6xl font-bold mb-4">Selamat Datang ke Klinik Afya</h1>
+  <p class="text-lg md:text-xl text-gray-600 max-w-2xl text-center">Penjagaan kesihatan menyeluruh untuk anda sekeluarga, dengan layanan mesra & profesional.</p>
+  <a href="#services" class="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700">Ketahui Lebih Lanjut</a>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Perkhidmatan Kami</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-4">Pemeriksaan Kesihatan</h3>
+        <p class="text-gray-600">Pemeriksaan lengkap untuk dewasa & kanak-kanak.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-4">Detail Scan & Antenatal</h3>
+        <p class="text-gray-600">Sokongan ibu mengandung termasuk detail scan & buka buku pink.</p>
+      </div>
+      <div class="p-6 bg-gray-50 rounded-xl shadow hover:shadow-lg">
+        <h3 class="text-xl font-semibold mb-4">Rawatan & Vaksinasi</h3>
+        <p class="text-gray-600">Rawatan umum, vaksinasi dewasa & kanak-kanak, perubatan keluarga.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Doctors Section -->
+<section id="doctors" class="py-20 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Doktor Kami</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow">
+        <img src="doctor1.jpg" alt="Dr Sharifa" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold">Dr. Sharifa Aisyah</h3>
+        <p class="text-gray-600">Pengurus & Doktor Perubatan</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <img src="doctor2.jpg" alt="Dr Ahmad" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold">Dr. Ahmad</h3>
+        <p class="text-gray-600">Doktor Perubatan</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow">
+        <img src="doctor3.jpg" alt="Dr Nurul" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold">Dr. Nurul</h3>
+        <p class="text-gray-600">Doktor Perubatan</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Panel Section -->
+<section id="panel" class="py-20 bg-white">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Panel Insurans / TPA</h2>
+    <div class="flex flex-wrap justify-center items-center gap-8">
+      <img src="panel1.png" alt="Panel 1" class="h-20">
+      <img src="panel2.png" alt="Panel 2" class="h-20">
+      <img src="panel3.png" alt="Panel 3" class="h-20">
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="py-20 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Galeri Klinik</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <img src="detailscan.jpg" alt="Detail Scan" class="rounded-xl shadow">
+      <img src="staff.jpg" alt="Staff Klinik" class="rounded-xl shadow">
+      <img src="suasana.jpg" alt="Suasana Klinik" class="rounded-xl shadow">
+    </div>
+  </div>
+</section>
+
+<!-- Reviews Section -->
+<section id="reviews" class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Ulasan Google</h2>
+    <!-- Paste Google Review embed code here -->
+  </div>
+</section>
+
+<!-- Locations Section -->
+<section id="locations" class="py-20 bg-gray-100">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold mb-12">Lokasi Kami</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Klinik Afya Setapak</h3>
+        <!-- Google Maps Embed -->
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Klinik Afya Melawati</h3>
+        <!-- Google Maps Embed -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-white text-center">
+  <div class="max-w-4xl mx-auto px-6">
+    <h2 class="text-3xl font-bold mb-8">Hubungi Kami</h2>
+    <p class="text-lg mb-4">Alamat: G-02, Residensi 222, Jalan Semarak Api, Off Jalan Gombak, 53300, Kuala Lumpur</p>
+    <p class="text-lg mb-4">Telefon: <a href="tel:01127309398" class="text-blue-600">011-2730 9398</a></p>
+    <p class="text-lg mb-8">Email: <a href="mailto:medicalafya@gmail.com" class="text-blue-600">medicalafya@gmail.com</a></p>
+    <a href="https://wa.me/601127309398" target="_blank" class="px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">WhatsApp Kami</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-100 py-6 text-center border-t">
+  <p class="text-gray-600">© 2025 Klinik Afya. Semua Hak Cipta Terpelihara.</p>
+</footer>
+
+</body>
+</html>
